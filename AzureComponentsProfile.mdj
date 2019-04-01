@@ -1,0 +1,158 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFElm5XMFNoGY0=",
+	"name": "Azure Architecutral Profile with Icons",
+	"ownedElements": [
+		{
+			"_type": "UMLProfile",
+			"_id": "AAAAAAFneMQB0wgzW30=",
+			"_parent": {
+				"$ref": "AAAAAAFElm5XMFNoGY0="
+			},
+			"name": "Azure",
+			"ownedElements": [
+				{
+					"_type": "UMLProfile",
+					"_id": "AAAAAAFnelSLzU6nkgk=",
+					"_parent": {
+						"$ref": "AAAAAAFneMQB0wgzW30="
+					},
+					"name": "Components",
+					"ownedElements": [
+						{
+							"_type": "UMLProfileDiagram",
+							"_id": "AAAAAAFnef7Nmijc+ao=",
+							"_parent": {
+								"$ref": "AAAAAAFnelSLzU6nkgk="
+							},
+							"name": "UMLComponent inheritance diagram",
+							"ownedViews": [
+								{
+									"_type": "UMLTextView",
+									"_id": "AAAAAAFnekBNGk5qCXc=",
+									"_parent": {
+										"$ref": "AAAAAAFnef7Nmijc+ao="
+									},
+									"font": "Arial;13;0",
+									"showShadow": false,
+									"left": 32,
+									"top": 208,
+									"width": 665,
+									"height": 232,
+									"text": "var img = new Image();\nimg.src = \"\";\nvar x = rect.x1;\nvar w = rect.getWidth();\nvar y = rect.y1;\nvar h = rect.getHeight();\ncanvas.drawImage(img, x, y, w, h);"
+								}
+							]
+						},
+						{
+							"_type": "UMLStereotype",
+							"_id": "AAAAAAFnekHvbk51Px0=",
+							"_parent": {
+								"$ref": "AAAAAAFnelSLzU6nkgk="
+							},
+							"name": "_",
+							"icon": {
+								"_type": "UMLImage",
+								"_id": "AAAAAAFnekHvbk52miE=",
+								"_parent": {
+									"$ref": "AAAAAAFnekHvbk51Px0="
+								},
+								"width": 40,
+								"height": 40,
+								"content": "var img = new Image();\nimg.src = \"\";\nvar x = rect.x1;\nvar w = rect.getWidth();\nvar y = rect.y1;\nvar h = rect.getHeight();\ncanvas.drawImage(img, x, y, w, h);"
+							}
+						},
+						{
+							"_type": "UMLStereotype",
+							"_id": "AAAAAAFnekNoIU6bHPc=",
+							"_parent": {
+								"$ref": "AAAAAAFnelSLzU6nkgk="
+							},
+							"name": "Blob Storage",
+							"icon": {
+								"_type": "UMLImage",
+								"_id": "AAAAAAFnekNoIU6c9Zw=",
+								"_parent": {
+									"$ref": "AAAAAAFnekNoIU6bHPc="
+								},
+								"width": 40,
+								"height": 40,
+								"content": "var img = new Image();\nimg.src = \"\";\nvar x = rect.x1;\nvar w = rect.getWidth();\nvar y = rect.y1;\nvar h = rect.getHeight();\ncanvas.drawImage(img, x, y, w, h);"
+							}
+						},
+						{
+							"_type": "UMLStereotype",
+							"_id": "AAAAAAFnejIPbE4Xy4U=",
+							"_parent": {
+								"$ref": "AAAAAAFnelSLzU6nkgk="
+							},
+							"name": "Data Factory",
+							"icon": {
+								"_type": "UMLImage",
+								"_id": "AAAAAAFnejIPbE4YKWI=",
+								"_parent": {
+									"$ref": "AAAAAAFnejIPbE4Xy4U="
+								},
+								"width": 40,
+								"height": 40
+							}
+						},
+						{
+							"_type": "UMLStereotype",
+							"_id": "AAAAAAFnehrIlk1wEUI=",
+							"_parent": {
+								"$ref": "AAAAAAFnelSLzU6nkgk="
+							},
+							"name": "SQL Data Warehouse",
+							"icon": {
+								"_type": "UMLImage",
+								"_id": "AAAAAAFnehrIlk1xTAE=",
+								"_parent": {
+									"$ref": "AAAAAAFnehrIlk1wEUI="
+								},
+								"width": 40,
+								"height": 40
+							}
+						},
+						{
+							"_type": "UMLStereotype",
+							"_id": "AAAAAAFneMShAQg63o4=",
+							"_parent": {
+								"$ref": "AAAAAAFnelSLzU6nkgk="
+							},
+							"name": "SQL Database",
+							"icon": {
+								"_type": "UMLImage",
+								"_id": "AAAAAAFneg6Z/irBDU0=",
+								"_parent": {
+									"$ref": "AAAAAAFneMShAQg63o4="
+								},
+								"width": 40,
+								"height": 40
+							}
+						},
+						{
+							"_type": "UMLStereotype",
+							"_id": "AAAAAAFnej558E5Wgno=",
+							"_parent": {
+								"$ref": "AAAAAAFnelSLzU6nkgk="
+							},
+							"name": "SQL Server Stretch Database",
+							"icon": {
+								"_type": "UMLImage",
+								"_id": "AAAAAAFnej558E5X1Ls=",
+								"_parent": {
+									"$ref": "AAAAAAFnej558E5Wgno="
+								},
+								"width": 40,
+								"height": 40
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"author": "Travis C. LaGrone",
+	"company": "Trintech",
+	"version": "0.1.0"
+}
